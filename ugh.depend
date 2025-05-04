@@ -1,0 +1,83 @@
+# depslib dependency file v1.0
+1746382618 source:d:\miniprojectuet2025\ugh\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<iostream>
+	<time.h>
+	<fstream>
+	"activities.h"
+	"def.h"
+	"menus.h"
+	"combine.h"
+	"Graphics.h"
+	"background.h"
+
+1746382023 d:\miniprojectuet2025\ugh\activities.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<iostream>
+	<vector>
+	<fstream>
+	"def.h"
+	"Graphics.h"
+	"background.h"
+
+1745413405 d:\miniprojectuet2025\ugh\def.h
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+
+1746381557 d:\miniprojectuet2025\ugh\menus.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+	"activities.h"
+	"def.h"
+	"combine.h"
+	"Graphics.h"
+
+1746382630 d:\miniprojectuet2025\ugh\combine.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<iostream>
+	<string>
+	<time.h>
+	<fstream>
+	"activities.h"
+	"def.h"
+	"menus.h"
+	"Graphics.h"
+	"background.h"
+
+1746381367 d:\miniprojectuet2025\ugh\graphics.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<iostream>
+	<vector>
+	<fstream>
+	"def.h"
+
+1746381687 d:\miniprojectuet2025\ugh\background.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<iostream>
+	<vector>
+	<fstream>
+	"def.h"
+	"Graphics.h"
+
