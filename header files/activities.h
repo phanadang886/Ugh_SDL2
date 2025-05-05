@@ -223,7 +223,7 @@ struct BulletManager {
     }
 
     void checkCollisions(bool &gameover, float playerX, float playerY) {
-        SDL_Rect playerRect = {(int)playerX+15, (int)playerY+10, PLAYER_WIDTH-30, 70};
+        SDL_Rect playerRect = {(int)playerX+15, (int)playerY+10, PLAYER_WIDTH-30, 60};
         for (SDL_Rect& bullet : bullets) {
             if (SDL_HasIntersection(&playerRect, &bullet)) {
                 gameover = true;
