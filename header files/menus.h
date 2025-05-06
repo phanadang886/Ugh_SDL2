@@ -281,7 +281,7 @@ struct Menu {
 struct GameoverMenu
 {
     Font *font;
-    Button backToMenuButton;   // Giả định class Button đã được định nghĩa
+    Button backToMenuButton;   
     Button replayButton;
 
     GameoverMenu(Graphics graphics,Font *font_)
