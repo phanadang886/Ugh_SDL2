@@ -20,12 +20,12 @@ struct UIA
     float playerVelY = 0.0f;  //vận tốc theo trục Y
     bool isJumping = false;  //trạng thái nhảy
 
-    SDL_Texture* frames[14]; // 14 frame của Uia Cat
+    SDL_Texture* frames[14];
     int num_frames = 14;
     int frame_index = 0;
-    int frames_per_second = 60; // FPS của game
-    int animation_speed = 20;  // Tốc độ hoạt ảnh: 20 FPS (1 frame hoạt ảnh mỗi 3 vòng lặp game)
-    int frame_counter = 0;     // Đếm số vòng lặp game để chuyển frame
+    int frames_per_second = 60; //FPS của game
+    int animation_speed = 20;  //tốc độ hoạt ảnh: 20 FPS (1 frame hoạt ảnh mỗi 3 vòng lặp game)
+    int frame_counter = 0;     //đếm số vòng lặp game để chuyển frame
 
     void Movement(int speed)
     {
@@ -175,19 +175,19 @@ struct Obstacle {
 
 
 struct BulletManager {
-    std::vector<SDL_Rect> bullets; // Danh sách các đạn
+    std::vector<SDL_Rect> bullets; //danh sách các đạn
     int frame_counter1 = 0;
     int BULLET_WIDTH = 75;
     int BULLET_HEIGHT = 56;
     float BULLET_SPEED = 5.0f;
-    std::vector<float> bulletSpeeds; // Tốc độ theo từng viên đạn (hướng đi)
+    std::vector<float> bulletSpeeds; //tốc độ theo từng viên đạn (hướng đi)
     SDL_Texture* bulletTextures[8];
     int animFrame = 0;
     int frame_counter = 0;
     void DeclareBullets(Graphics graphics) {
     for (int i = 0; i < 8; ++i) {
         char filename[32];
-        sprintf(filename, "bullet_%d.png", i); // Tên ảnh: bullet_0.png, bullet_1.png, ...
+        sprintf(filename, "bullet_%d.png", i);
         bulletTextures[i] = graphics.loadTexture(filename);
     }
 }
