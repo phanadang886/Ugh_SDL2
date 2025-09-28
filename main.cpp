@@ -54,11 +54,11 @@ int main(int argc, char* argv[]) {
     FallingRectManager fallingrects;
     SDL_Texture* bubble = graphics.loadTexture("bubbleJump.png");
 
-    bool gameOver = false;  //trạng thái thua
+    bool gameOver = false;  //trạng thái bi thua
     bool quit = false;//thoát game
     bool gamestart = false;//game chưa bắt đầu
     int speed_count = 0;//đếm số vòng lặp để tăng speed
-    int speed = 4;//tốc độ di chuyển chung của mọi thứ
+    int speed = 3;//tốc độ di chuyển chung của mọi thứ
     Uint32 start_time; //lưu thời gian bắt đầu
     int jump_count = 5;
 
